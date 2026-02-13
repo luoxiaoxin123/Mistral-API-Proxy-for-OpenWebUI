@@ -1,0 +1,11 @@
+services:
+  mistral-proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mistral-api-proxy
+    env_file:
+      - .env
+    ports:
+      - "6432:6432"
+    restart: unless-stopped
