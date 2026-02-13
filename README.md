@@ -69,15 +69,14 @@ http://localhost:6432
 
 ## 说明
 
-- 这是一个轻量代理，不是完整的生产级网关
-- 请妥善保管 `.env`，不要提交真实密钥
+- 请妥善保管 `.env`
 
 ## 来源声明
 
-本项目基于以下 Gist 修改而来：
+本项目基于以下 GitHub Gist 修改与扩展而来：
 
-- https://gist.github.com/ricjcosme/6dc440d4a2224f1bb2112f6c19773384
+https://gist.github.com/ricjcosme/6dc440d4a2224f1bb2112f6c19773384
 
-## 协议
+本仓库在原有实现基础上进行了 Docker 化封装及部分兼容逻辑增强。
 
-MIT，详见 `LICENSE`。
+原始代码版权归 Gist 原作者所有。如原作者对本仓库存在任何异议，请联系删除。
